@@ -5,6 +5,10 @@ box and a sort button to every crafting window - workbench, forge, cauldron,
 mead ketill, the upgrade tab and the rest - so you can find a recipe without
 scrolling through the whole list.
 
+> **Unofficial mod.** This is a fan-made mod, not affiliated with or endorsed by
+> Iron Gate. It marks your game as modded (the game shows this in the main menu),
+> as Iron Gate asks mod authors to do.
+
 ## What it adds
 
 - **Search box** above the recipe list: type part of a name and the list

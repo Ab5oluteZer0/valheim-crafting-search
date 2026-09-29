@@ -16,7 +16,7 @@ namespace CraftingSearch
     {
         public const string PluginGUID = "com.michal.valheim.craftingsearch";
         public const string PluginName = "Crafting Search";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "1.0.0";
 
         internal static ManualLogSource Log;
         private static RecipeListControls _controls;
@@ -27,6 +27,9 @@ namespace CraftingSearch
         private void Awake()
         {
             Log = Logger;
+            // Gra prosi mody o ustawienie tej flagi: w menu pojawia sie napis, ze gra jest
+            // zmodowana (Iron Gate wymaga oznaczania modow jako nieoficjalnych).
+            Game.isModded = true;
             new Harmony(PluginGUID).PatchAll(typeof(Plugin).Assembly);
         }
 
