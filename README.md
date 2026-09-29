@@ -20,6 +20,8 @@ scrolling through the whole list.
   **Default → A-Z → Z-A → Type → Weight**. Recipes you can craft right now
   still come first, like in the game.
 
+![The workbench list filtered by "rag", with the sort button next to the tabs](docs/search.png)
+
 ## Built on the game's own sorting
 
 Valheim already sorts crafting lists - most players just never find it: the
