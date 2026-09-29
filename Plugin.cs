@@ -16,7 +16,7 @@ namespace CraftingSearch
     {
         public const string PluginGUID = "com.michal.valheim.craftingsearch";
         public const string PluginName = "Crafting Search";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         internal static ManualLogSource Log;
         private static RecipeListControls _controls;
