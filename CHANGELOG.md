@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.2
+- Mod ID changed from `com.michal...` to `com.ab5olutezer0...`. No gameplay changes.
+
 ## 1.0.1
 - New: screenshot on the mod page.
 

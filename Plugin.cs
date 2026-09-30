@@ -14,9 +14,9 @@ namespace CraftingSearch
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.michal.valheim.craftingsearch";
+        public const string PluginGUID = "com.ab5olutezer0.valheim.craftingsearch";
         public const string PluginName = "Crafting Search";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         internal static ManualLogSource Log;
         private static RecipeListControls _controls;
